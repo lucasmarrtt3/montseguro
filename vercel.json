@@ -1,18 +1,1 @@
 
-
-{
-
-	"builds": [
-		{
-			"src": "microservices/app/main.py",
-			"use": "@vercel/python"
-		}
-	],
-	"routes": [
-		{
-			"src": "/(.*)",
-			"dest": "microservices/app/main.py"
-		}
-	]
-
-}
