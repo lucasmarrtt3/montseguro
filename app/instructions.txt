@@ -1,0 +1,26 @@
+==========
+API RUN 
+=========
+- uvicorn app.main:app --reload
+
+
+=========
+REDIS RUN 
+=========
+- redis-cli
+- keys *
+
+
+=========
+TESTS RUN 
+=========
+- pytest
+
+
+========
+DOCKER 
+========
+--- CREATE IMAGE 
+- docker build -t fastapi-app .
+--- RUN IMAGE 
+- docker run -d -p 8000:8000 fastapi-app

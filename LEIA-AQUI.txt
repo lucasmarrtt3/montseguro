@@ -1,0 +1,7 @@
+Gostaria de informar que encontrei uma limitação inesperada ao tentar implementar a solução na AWS com Kubernetes. 
+O nível gratuito da AWS oferece apenas uma CPU, enquanto a execução do Kubernetes 
+requer pelo menos duas CPUs para garantir o funcionamento adequado do cluster.
+
+Infelizmente, isso me impediu de seguir com a implementação conforme o plano inicial. 
+
+Agradeço pela compreensão e peço desculpas por qualquer inconveniente.
