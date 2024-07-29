@@ -49,6 +49,15 @@ Abra o navegador e acesse http://localhost:8000
 - Você pode visitar o repositório de produção no link: [---coloque o link aqui---]
 
 ### Repita esses passos em sua instancia linux na AWS, Azure, Heroku etc 
-- É importante esclarecer que cada servidor é unico.
+- É importante esclarecer que cada servidor é unico. As configurações podem ser diferentes para outras distribuições linux, assim como windows e mac. 
 
+
+# POR FAVOR LEIA AQUI 
+Gostaria de informar que encontrei uma limitação inesperada ao tentar implementar a solução na AWS com Kubernetes. 
+O nível gratuito da AWS oferece apenas uma CPU, enquanto a execução do Kubernetes 
+requer pelo menos duas CPUs para garantir o funcionamento adequado do cluster. Executar kubernetes em uma instancia de nível gratuito tem 
+muitas restrições de recursos, a instancia de (t2.micro) possui apenas 1 CPU e 1 GB/RAM o que é insuficiente para rodar um cluster kubernetes com junto com a aplicação nele, 
+é recomendado no minimo 2 CPUs e 4 GB/RAM. Infelizmente, isso me impediu de seguir com a implementação conforme o plano inicial. 
+
+Agradeço pela compreensão e peço desculpas por qualquer inconveniente.
 
